@@ -1,0 +1,51 @@
+/*Defolt-CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.animation {
+    background-image: url(../imgs/Screenshot\ 2023-01-09\ 030011.png);
+    background-position: center;
+    height: 100vh;
+}
+.eagle {
+    transform: rotate(5deg);
+    height: 7rem;
+    position: relative;
+    bottom: 7rem;
+    z-index: 1;
+    left: -19rem;
+    transform-origin: top;
+}
+.animation:hover .eagle {
+    transform: rotate(30deg top);
+    transition: .8s ease-in-out;
+    transform: translate(6rem,5rem);
+    left: 6rem;
+}
+img.tree {
+    height: 28rem;
+    margin-bottom: -.2rem;
+}
+img.mouse {
+    height: 4.7rem;
+    bottom: 6rem;
+    right: 17rem;
+    transform: rotate(-2deg);
+    position: absolute;
+}
+.animation:hover .mouse {
+    transform: rotate(4deg top);
+    transition: .4333s ease-in;
+    transform: translate(31rem,-2.5rem);
+    right: 36rem;
+    z-index: 2;
+}
+img.cave {
+    height: 13rem;
+    bottom: 5rem;
+    position: absolute;
+    right: 0rem;
+}
