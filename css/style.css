@@ -20,13 +20,13 @@
     transform-origin: top;
 }
 .animation:hover .eagle {
-    transform: rotate(30deg top);
+    transform: rotate(-18deg);
     transition: .8s ease-in-out;
-    transform: translate(6rem,5rem);
-    left: 6rem;
+    transform: translate(8rem,3rem);
+    left: 8rem;
 }
 img.tree {
-    height: 28rem;
+    height: 30rem;
     margin-bottom: -.2rem;
 }
 img.mouse {
